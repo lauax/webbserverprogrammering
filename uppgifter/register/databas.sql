@@ -1,0 +1,1 @@
+create table form(id int(8) PRIMARY KEY AUTO_INCREMENT, Username varchar(32), First_Name varchar(32), Last_Name varchar(32), Mail varchar(32), Birthday varchar(32), Password varchar(32));

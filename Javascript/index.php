@@ -7,14 +7,15 @@
 		<script>
 			function meddlande(){
 				alert("mitt meddlande");
-				
 			}
-			
-			function makeLarge(obj){
-				
+			function bigImg(x){
+				x.style.height = "300px";
+				x.style.width = "300px";
 			}
-			function makeSmall(obj){
-				
+
+			function normalImg(x){
+				x.style.height = "150px";
+				x.style.width = "150px";
 			}
 			
 			
@@ -22,7 +23,7 @@
 	
 	<body>
 		<button onClick="meddlande()">Uppgift 1</button>
-		<img src="fil" alt="Uppgift2" onmouseover="makeLarge"(this)" onmouseleave="makeSmall(this)"/>
+		<img src="BoostedG1Willliam.jpg" alt="Uppgift2" onmouseover="bigImg(this)" onmouseleave="normalImg(this)" width="100" height="100"/>
 	</body>
 	
 	

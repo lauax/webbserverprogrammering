@@ -9,11 +9,69 @@
 				alert("mitt meddlande");
 				
 			}
+			
+			function makeLarge(obj){
+				
+			}
+			function makeSmall(obj){
+				
+			}
+			
+			
 		</script>
 	
 	<body>
-		<buttom onClick="meddlande()">Uppgift 1</buttom>
+		<button onClick="meddlande()">Uppgift 1</button>
+		<img src="fil" alt="Uppgift2" onmouseover="makeLarge"(this)" onmouseleave="makeSmall(this)"/>
 	</body>
 	
 	
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
